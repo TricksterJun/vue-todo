@@ -1,0 +1,45 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputText {
+    align-self: center;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.inputText:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: rgba(#000, #000, #000, 0.1);
+}
+
+.orderList {
+    align-self: center;
+}
+
+.listItem {
+    font-size: 18px;
+    cursor: default;
+}
+
+.times {
+    float: right;
+    margin-left: 10px;
+    align-self: center;
+    cursor: pointer;
+}
